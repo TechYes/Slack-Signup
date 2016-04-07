@@ -20,7 +20,7 @@ html
               if tokenRequired
                 input(type="text", name="token", placeholder="#{__('ENTER_TOKEN')}")#slack-token.field
               input(type="submit", value="Join").submit
-            a(href="https://github.com/TechYes/Slack-Signup/blob/master/GUIDELINES.md") Read our community guidelines
+            a(class="guide-link" href="https://github.com/TechYes/Slack-Signup/blob/master/GUIDELINES.md") Be sure to read our community guidelines
     script.
       var tokenRequired = #{tokenRequired};
       var form = document.getElementById('join-form');
